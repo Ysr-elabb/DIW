@@ -1,0 +1,22 @@
+.file-wrapper {
+    justify-content: flex-start;
+    align-items: center;
+    padding: 1px;
+}
+.open-icon{
+    font-size: 18px;
+    color: #ABAFCD;
+    margin-right: -5px;
+}
+.folder-icon{
+    font-size: 18px;
+    color: #ABAFCD;
+    margin-right: 5px ;
+}
+.file-name{
+    font-size: 14px;
+    font-weight: 400;
+    color: #26265F;
+    opacity: 0.8;
+    margin: 0;
+}
