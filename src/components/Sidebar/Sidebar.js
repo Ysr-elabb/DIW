@@ -50,7 +50,43 @@ export default function Sidebar() {
             </div>
             <div className="d-flex flex-column sidebar-footer">
                 <div className="categories-wrapper">
-                   
+                   <div className="categories-list">
+                        <div className="d-flex flex-row categories-list-header">
+                            {/* <i className='uil uil-angle-left open-category-icon'></i> */}
+                            <i className='uil uil-folder category-icon'></i>
+                            <p className="category-name">Folder</p>
+                        </div>
+                        <div className="categories-list-content">
+                            <div className="d-flex flex-row category-item">
+                                <div className="d-flex flex-row align-items-center">
+                                    <i className='uil uil-file-alt category-icon'></i>
+                                    <p className="category-name">Text Doc</p> 
+                                </div>
+                                <i className='uil uil-angle-right open-category-icon'></i>
+                            </div>
+                            <div className="d-flex flex-row category-item">
+                                <div className="d-flex flex-row align-items-center">
+                                    <i className='uil uil-presentation category-icon'></i>
+                                    <p className="category-name">Presentation</p> 
+                                </div> 
+                                <i className='uil uil-angle-right open-category-icon'></i>
+                            </div>
+                            <div className="d-flex flex-row category-item">
+                                <div className="d-flex flex-row align-items-center">
+                                    <i className='uil uil-clipboard-notes category-icon'></i>
+                                    <p className="category-name">Sheets</p> 
+                                </div> 
+                                <i className='uil uil-angle-right open-category-icon'></i>
+                            </div>
+                            <div className="d-flex flex-row category-item">
+                                <div className="d-flex flex-row align-items-center">
+                                    <i className='uil uil-ellipsis-h category-icon'></i>
+                                    <p className="category-name">More</p> 
+                                </div>
+                                <i className='uil uil-angle-right open-category-icon'></i>
+                            </div>
+                        </div>
+                   </div>
                 </div>
                 <div className="d-flex flex-row add-new-wrapper">
                     <a href="#" className="button-text">Create new</a>
