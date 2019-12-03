@@ -1,6 +1,6 @@
 .navbarWrapper {
     height: 100%;
-    width: 5%;
+    width: 70px;
     background-color: #5964FF;
     align-items: center;
     padding-top: 12px;
@@ -23,13 +23,14 @@
     margin: 0;
     padding: 0;
     width: 100%;
+    padding-top: 60%;
 }
 .navbar-item-icon {
     text-decoration: none;
     font-size: 22px;
     color: #ffffff;
     padding: 12px 18px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     width: 100%;
 }
 .navbar-item-icon:hover {
@@ -49,10 +50,13 @@
     border-color: #ffffff;
     border-left-style:  solid;
 }
+.navbar-active-item-icon:hover {
+    text-decoration: none;
+    color: #ffffff;
+}
 .navbar-block {
     height: 65%;
     align-items: center;
-    justify-content: space-between;
 }
 .profile-block{
     padding-bottom: 15px;

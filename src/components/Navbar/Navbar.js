@@ -19,7 +19,7 @@ export default function Navbar() {
             <div className="d-flex flex-column navbarItems">
                 {navbarElements.map(item =>{
                    return <a href="#" className={ (item.active ? 'navbar-active-item-icon' : 'navbar-item-icon')}>
-                            <i className={item.icon}></i>
+                            <i className={`${item.icon}`}></i>
                           </a>
                 })}
             </div>
