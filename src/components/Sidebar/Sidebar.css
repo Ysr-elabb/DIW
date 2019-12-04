@@ -1,8 +1,9 @@
 .sidebar-wrapper {
-    width: 250px;
+    width: 25%;
     height: 100%;
     background-color: #fff;
     justify-content: space-between;
+    overflow: hidden;
 }
  .card {
     background: #fff;
@@ -47,7 +48,7 @@
     font-size: 20px;
 }
 .storage-wrapper {
-    padding-top: 15px;
+    padding-top: 8px;
     padding-left: 20px;
     padding-right: 20px;
 }
@@ -68,9 +69,9 @@
     font-weight: 600;
 }
 .explorer-content-wrapper {
-    /* padding-top: 5px; */
+    padding-top: 3px;
     padding-left: 22px;
-    padding-bottom: 12px;
+    padding-bottom: 8px;
 }
 .explorer-section-wrapper {
     padding-top: 8px;
@@ -78,7 +79,7 @@
     padding-right: 20px;
 }
 .section-title {
-    font-size: 18px;
+    font-size: 100%;
     font-weight: 500;
     color: #26265F;
     opacity: 0.8;
@@ -104,7 +105,7 @@
     background-color: #5964FF;
     border-radius: 6px;
     margin: auto;
-    margin-top: 10px;
+    margin-top: 5px;
     align-items: center;
     justify-content: space-between;
     padding-left: 20px;
@@ -141,29 +142,19 @@
 }
 .categories-list-header {
     padding-bottom: 8px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #E8EAF8;
     align-items: center;
-}
-.category-item {
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 8px;
 }
 .open-category-icon{
     font-size: 22px;
     color: #ABAFCD;
     margin-right: -5px;
 }
-.category-icon{
-    font-size: 25px;
-    color: #7883FF;
-    margin-right: 5px ;
-}
 .category-name{
-    font-size: 16px;
+    font-size: 100%;
     font-weight: 500;
     color: #26265F;
     opacity: 0.8;

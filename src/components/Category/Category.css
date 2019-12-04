@@ -1,0 +1,22 @@
+.category-item {
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 3px;
+}
+.category-icon{
+    font-size: 22px;
+    color: #7883FF;
+    margin-right: 5px ;
+}
+.category-name{
+    font-size: 100%;
+    font-weight: 500;
+    color: #26265F;
+    opacity: 0.8;
+    margin: 0;
+}
+.open-category-icon{
+    font-size: 22px;
+    color: #ABAFCD;
+    margin-right: -5px;
+}

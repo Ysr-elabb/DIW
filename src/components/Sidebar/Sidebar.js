@@ -1,6 +1,7 @@
 import React from 'react'
 import './Sidebar.css'
 import File from '../File/File'
+import Category from '../Category/Category'
 
 const filesList = [
     {_id:0, name:"Analytics"},
@@ -9,6 +10,13 @@ const filesList = [
     {_id:3, name:"Templates"},
     {_id:4, name:"Projects"},
     {_id:5, name:"Projector Cources"},
+];
+
+const cateogries = [
+    {_id: 0, name: "Text Doc", icon: "uil uil-file-alt"},
+    {_id: 1, name: "Presentation", icon: "uil uil-presentation"},
+    {_id: 2, name: "Sheets", icon: "uil uil-clipboard-notes"},
+    {_id: 3, name: "More", icon: "uil uil-ellipsis-h"},
 ]
 
 export default function Sidebar() {
@@ -32,7 +40,7 @@ export default function Sidebar() {
                     <h4 className="explorer-title">My Files</h4>
                 </div>
                 <div className="explorer-content-wrapper">
-                    {filesList.map(item => <File file={item} />)}
+                    {filesList.map(item => <File key={item._id} file={item} />)}
                 </div>
                 <div className="explorer-section-wrapper">
                     <h4 className="section-title">Shared with me</h4>
@@ -57,34 +65,7 @@ export default function Sidebar() {
                             <p className="category-name">Folder</p>
                         </div>
                         <div className="categories-list-content">
-                            <div className="d-flex flex-row category-item">
-                                <div className="d-flex flex-row align-items-center">
-                                    <i className='uil uil-file-alt category-icon'></i>
-                                    <p className="category-name">Text Doc</p> 
-                                </div>
-                                <i className='uil uil-angle-right open-category-icon'></i>
-                            </div>
-                            <div className="d-flex flex-row category-item">
-                                <div className="d-flex flex-row align-items-center">
-                                    <i className='uil uil-presentation category-icon'></i>
-                                    <p className="category-name">Presentation</p> 
-                                </div> 
-                                <i className='uil uil-angle-right open-category-icon'></i>
-                            </div>
-                            <div className="d-flex flex-row category-item">
-                                <div className="d-flex flex-row align-items-center">
-                                    <i className='uil uil-clipboard-notes category-icon'></i>
-                                    <p className="category-name">Sheets</p> 
-                                </div> 
-                                <i className='uil uil-angle-right open-category-icon'></i>
-                            </div>
-                            <div className="d-flex flex-row category-item">
-                                <div className="d-flex flex-row align-items-center">
-                                    <i className='uil uil-ellipsis-h category-icon'></i>
-                                    <p className="category-name">More</p> 
-                                </div>
-                                <i className='uil uil-angle-right open-category-icon'></i>
-                            </div>
+                            {cateogries.map(item => <Category key={item._id} category={item} />)}
                         </div>
                    </div>
                 </div>
