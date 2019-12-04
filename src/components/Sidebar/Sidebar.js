@@ -21,7 +21,7 @@ const cateogries = [
 
 export default function Sidebar() {
     return (
-        <div className="card card-1 d-flex flex-column sidebar-wrapper">
+        <div className="d-flex flex-column sidebar-wrapper">
            <div>
             <div className="sidebar-header d-flex flex-row">
                 <div className="sidebar-header-title-wrapper">
