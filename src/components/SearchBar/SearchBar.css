@@ -1,9 +1,12 @@
+.input-wrapper {
+    padding: 0;
+}
 .search-input {
    background-color: #fff;
    border: none;
    border-end-end-radius: 8px;
     margin-left: -8px;
-   width: 94%;
+   width: 100%;
    font-size: 16px;
     font-weight: 500;
     color: #26265F;
@@ -20,5 +23,5 @@
     border: none !important;
     background-color: #fff;
     color: #5A64FF;
-    font-size: 20px;
+    font-size: 16px;
 }

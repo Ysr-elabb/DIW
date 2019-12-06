@@ -28,7 +28,7 @@ export default function Sidebar() {
                     <h4 className="sidebar-header-title">Marketing Team</h4>
                     <p className="sidebar-header-desc">17 members</p>
                 </div>
-                <i class='uil uil-angle-down more-icon'></i>
+                <i className='uil uil-angle-down more-icon'></i>
             </div>
             <div className="storage-wrapper">
                 <div className="storage-title-wrapper">
