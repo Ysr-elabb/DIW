@@ -10,4 +10,51 @@
     width: 100%;
     margin-bottom: 5px;
     padding: 20px;
+    display: flex;
+    flex: auto;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.details-bar-wrapper .progress-bar-wrapper {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+.details-bar-wrapper .used-space-value, 
+.details-bar-wrapper .capacity-value {
+    color: #4958EB;
+    font-size: 130%;
+    font-weight: bold;
+    opacity: 1;
+    margin: 0;
+}
+.details-bar-wrapper .capacity-value {
+    color: #C5C8DE;
+}
+.details-bar-wrapper .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #F0F3FB;
+    border-radius: 8px;
+}
+.details-bar-wrapper .progress-bar-juice {
+    width: 30%;
+    height: 100%;
+    background-color: #6190F7;
+    border-radius: 8px;
+}
+.details-bar-wrapper .progress-bar-values {
+    padding-bottom: 5px;
+}
+.used-txt {
+    color: #8A8FB6;
+    font-size: 80%;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.upgrade-txt {
+    color: #6670F5;
+    font-size: 80%;
+    font-weight: 500;
+    margin-bottom: 8px;
 }

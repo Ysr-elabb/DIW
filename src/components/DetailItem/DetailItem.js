@@ -43,7 +43,7 @@ function DetailItem(props) {
                 </div>
                 <div className="detail-info">
                     <h4 className="detail-info-title">{props.item.title}</h4>
-                    <p className="used-txt">{`${props.item.filesCount} files`}</p>
+                    <p className="details-files-count">{`${props.item.filesCount} files`}</p>
                 </div>
             </div>
             <div className="detail-value-wrapper">
