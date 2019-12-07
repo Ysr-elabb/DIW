@@ -5,7 +5,7 @@
     align-items: center;
     padding: 15px;
     align-items: center;
-    overflow: hidden;
+    overflow: auto;
 }
 .searchbar,
 .services-wrapper,
@@ -14,6 +14,9 @@
 {
     width: 100%;
     padding: 15px;
+}
+.recent-folders-section {
+    height: 100%;
 }
 .folders-section {
     margin-top: 12px;
@@ -37,7 +40,7 @@
 .recent-folders-list-wrapper {
     height: 100%;
     margin-top: 12px;
-    overflow: auto
+    /* overflow: auto */
 }
 .recent-folders-list{
     margin: 0;

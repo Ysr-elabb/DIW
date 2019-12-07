@@ -3,7 +3,7 @@ import Navbar from '../components/Navbar/Navbar'
 import Sidebar from '../components/Sidebar/Sidebar'
 import MainContent from '../components/MainContent/MainContent'
 import DetailsBar from '../components/DetailsBar/DetailsBar'
-
+import '../App.css'
 export default class Home extends Component {
     render() {
         return (
