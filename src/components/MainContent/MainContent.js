@@ -11,7 +11,7 @@ const storageServices = [
         image: "https://img.icons8.com/color/40/000000/google-drive.png", 
         capacity: 50, 
         usedValue: 45.5, 
-        isPrimary: true
+        selected: true
     },
     {
         _id: 1, 
@@ -19,7 +19,7 @@ const storageServices = [
         image: "https://img.icons8.com/color/48/000000/dropbox.png", 
         capacity: 3, 
         usedValue: 1.2, 
-        isPrimary: true
+        selected: false
     },
     {
         _id: 2, 
@@ -27,7 +27,7 @@ const storageServices = [
         image: "https://img.icons8.com/color/40/000000/skydrive.png", 
         capacity: 3, 
         usedValue: 2.5, 
-        isPrimary: true},
+        selected: false},
 ];
 
 const MainFolders = [
