@@ -5,10 +5,12 @@
     align-items: center;
     padding: 15px;
     align-items: center;
+    overflow: hidden;
 }
 .searchbar,
 .services-wrapper,
-.folders-section
+.folders-section,
+.recent-folders-section
 {
     width: 100%;
     padding: 15px;
@@ -16,7 +18,7 @@
 .folders-section {
     margin-top: 12px;
 }
-.folders-section-title {
+.main-content-title {
     color: #26265F;
     font-size: 125%;
     font-weight: bold;
@@ -28,11 +30,45 @@
     font-weight: bold;
     margin: 0;
 }
-.folder {
-    width: 30%;
-    height: 150px;
-    background-color: #fff;
-    border-radius: 8px;
-    padding: 15px;
-    margin-top: 20px;
+.recent-folders-section {
+    margin-top: 12px;
+    height: 100%;
 }
+.recent-folders-list-wrapper {
+    height: 100%;
+    margin-top: 12px;
+    overflow: auto
+}
+.recent-folders-list{
+    margin: 0;
+    height: 100%;
+}
+.table-header {
+    color: #6B74A4;
+    font-weight: bold;
+    font-size: 100%;
+    opacity: 0.8;
+    margin: 0;
+}
+.recent-file-title {
+    color: #26265F;
+    font-weight: 500;
+    font-size: 100%;
+    opacity: 0.8;
+    margin: 0;
+}
+.recent-file-info {
+    color: #7E86AE;
+    font-weight: 500;
+    font-size: 100%;
+    opacity: 0.8;
+    margin: 0;
+}
+.recent-file-info-icon {
+    color: #7E86AE;
+    font-weight: 500;
+    font-size: 150%;
+    opacity: 0.8;
+    margin: 0;
+}
+

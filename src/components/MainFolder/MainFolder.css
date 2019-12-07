@@ -1,0 +1,63 @@
+.folder {
+    width: 30%;
+    height: 150px;
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 15px;
+    margin-top: 20px;
+}
+.folder-header {
+    width: 100%;
+}
+.main-folder-icon {
+    color: #6A73FF;
+    font-size: 35px;
+}
+.folder-member {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-color: #6A73FF;
+    background-color: #fff;
+    border-style:  solid;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: -12px;
+}
+ .folder-content {
+     width: 100%;
+     padding: 8px;
+}
+.folder-title {
+    margin-bottom: 5px;
+    color: #26265F;
+    font-size: 100%;
+    font-weight: bold;
+}
+.files-count {
+    margin: 0;
+    color: #888EB1;
+    font-size: 85%;
+}
+.member-count {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    border-width: 2px;
+    border-style: dashed;
+    border-color: #C6CADD;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-left: -12px;
+}
+.member-count-value {
+    margin: 0;
+    color: #888EB1;
+    font-size: 100%;
+}
