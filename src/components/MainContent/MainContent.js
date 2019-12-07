@@ -69,37 +69,43 @@ const recentFiles = [
         _id: 0,
         title: "Competitor Analysis Template",
         members: "Only you",
-        lastModified: "Sep 3, 2019"
+        lastModified: "Sep 3, 2019",
+        type: "PDF"
     },
     {
         _id: 1,
         title: "How to Create a Case Study",
         members: "3 members",
-        lastModified: "Jun 12, 2019"
+        lastModified: "Jun 12, 2019",
+        type: "TXT"
     },
     {
         _id: 2,
         title: "Landing Page Structure",
         members: "10 members",
-        lastModified: "Jul 17, 2019"
+        lastModified: "Jul 17, 2019",
+        type: "TXT"
     },
     {
         _id: 3,
         title: "Meeting Report",
         members: "5 members",
-        lastModified: "Aug 28, 2019"
+        lastModified: "Aug 28, 2019",
+        type: "PDF"
     },
     {
         _id: 4,
         title: "Project Documents",
         members: "Only you",
-        lastModified: "Aug 17, 2019"
+        lastModified: "Aug 17, 2019",
+        type: "ZIP"
     },
     {
         _id: 5,
         title: "Review Checklist Template",
         members: "7 members",
-        lastModified: "Sep 8, 2019"
+        lastModified: "Sep 8, 2019",
+        type: "TXT"
     },
 ]
 
@@ -142,9 +148,28 @@ function MainContent() {
                     </thead>
                     <tbody>
                         {recentFiles.map(item => {
+                            let icon = null;
+
+                            switch (item.type) {
+                                case "PDF":
+                                    icon= <span className="recent-file-type-icon pdf-icon">PDF</span>
+                                    break;
+                                case "TXT":
+                                    icon= <span className="recent-file-type-icon txt-icon">
+                                        <i className='uil uil-align-left-justify'></i>
+                                    </span>
+                                    break;    
+                                case "ZIP":
+                                    icon= <span className="recent-file-type-icon zip-icon">ZIP</span>
+                                    break;
+                                default:
+                                    icon=null;
+                                    break;
+                            }
+
                             return (
                                 <tr>
-                                    <td className="recent-file-title">{item.title}</td>
+                                    <td className="recent-file-title">{icon} {item.title}</td>
                                     <td className="recent-file-info">{item.members}</td>
                                     <td className="recent-file-info">{item.lastModified}</td>
                                     <td className="recent-file-info-icon"><i className="uil uil-ellipsis-h"></i></td>

@@ -71,4 +71,26 @@
     opacity: 0.8;
     margin: 0;
 }
-
+.recent-file-type-icon {
+    width: 20px;
+    height: 20px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+}
+.pdf-icon {
+    background-color: #FF685F;
+    color: #FFFDFD;
+    font-size: 12px;
+}
+.txt-icon {
+    background-color: #6394FE;
+    color: #FFFDFD;
+}
+.zip-icon {
+    background-color: #FBC12E;
+    color: #FFFDFD;
+}
