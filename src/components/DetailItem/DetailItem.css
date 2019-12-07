@@ -1,0 +1,66 @@
+.detail-item {
+    margin-bottom: 15px;
+}
+.details-bar-wrapper .progress-bar-wrapper {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+.details-bar-wrapper .used-space-value, 
+.details-bar-wrapper .capacity-value {
+    color: #4958EB;
+    font-size: 200%;
+    font-weight: bold;
+    opacity: 1;
+    margin: 0;
+}
+.details-bar-wrapper .capacity-value {
+    color: #C5C8DE;
+}
+.details-bar-wrapper .progress-bar {
+    width: 100%;
+    height: 8px;
+    background-color: #F0F3FB;
+    border-radius: 8px;
+}
+.details-bar-wrapper .progress-bar-juice {
+    width: 30%;
+    height: 100%;
+    background-color: #6190F7;
+    border-radius: 8px;
+}
+.details-bar-wrapper .progress-bar-values {
+    padding-bottom: 5px;
+}
+.used-txt {
+    color: #8A8FB6;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.upgrade-txt {
+    color: #6670F5;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+.detail-info-title {
+    color: #26265F;
+    font-weight: 500;
+    font-size: 110%;
+    opacity: 0.8;
+    margin: 0;
+}
+.detail-value {
+    color: #6670F5;
+    font-size: 140%;
+    font-weight: 500;
+}
+.detail-icon {
+    width: 45px;
+    height: 45px;
+    padding: 12px;
+    border-radius: 8px;
+    /* background-color: #EFEFFD; */
+    margin-right: 10px;
+    /* color: #6A73FF; */
+    font-size: 30px;
+}

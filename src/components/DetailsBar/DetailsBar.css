@@ -1,7 +1,13 @@
-.wrapper {
+.details-bar-wrapper {
     width: 35%;
     height: 100%;
     background-color: #fff;
     justify-content: space-between;
     overflow: hidden;
+    padding-top: 8px;
+}
+.details-bar-wrapper .progress-bar-wrapper, .details-wrapper {
+    width: 100%;
+    margin-bottom: 5px;
+    padding: 20px;
 }
