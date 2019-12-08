@@ -127,7 +127,7 @@ function MainContent() {
                </div>
                 <div className="d-flex flex-row justify-content-between align-items-center folders-wrapper">
                     {
-                        MainFolders.map(item => <MainFolder item={item} />)
+                        MainFolders.map(item => <MainFolder key={item._id} item={item} />)
                     }
                 </div>
             </div>
@@ -137,7 +137,7 @@ function MainContent() {
                     <p className="view-all-text">View all</p>
                 </div>
                 <div className="d-flex flex-fill recent-folders-list-wrapper">
-                <table class="table table-borderless fixed-header recent-folders-list">
+                <table className="table table-borderless fixed-header recent-folders-list">
                     <thead>
                         <tr>
                             <th className="table-header">Name</th>
@@ -168,7 +168,7 @@ function MainContent() {
                             }
 
                             return (
-                                <tr>
+                                <tr key={item._id}>
                                     <td className="recent-file-title">{icon} {item.title}</td>
                                     <td className="recent-file-info">{item.members}</td>
                                     <td className="recent-file-info">{item.lastModified}</td>

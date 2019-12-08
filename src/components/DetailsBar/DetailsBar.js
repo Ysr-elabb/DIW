@@ -31,7 +31,7 @@ export default function DetailsBar() {
                 </div>
                 <div className="details-wrapper">
 
-                    {detailItems.map(item => <DetailItem item={item} />)}
+                    {detailItems.map(item => <DetailItem key={item._id} item={item} />)}
 
                     {/* <div className="d-flex flex-row justify-content-between align-items-center detail-item">
                         <div className="d-flex flex-row align-items-center detail-info-wrapper">

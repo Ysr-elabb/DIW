@@ -3,7 +3,6 @@ import "./StorageService.css"
 
 function StorageService(props) {
 
-    console.log(props.service.selected)
     return (
         <div className={`d-flex flex-column justify-content-between ${props.service.selected ? "selected-service-wrapper":"service-wrapper"}`}>
             <div className="d-flex flex-row justify-content-between service-header">

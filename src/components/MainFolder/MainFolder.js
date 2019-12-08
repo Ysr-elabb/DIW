@@ -13,7 +13,7 @@ function MainFolder(props) {
                     {
                         members.map(item =>{
                             return (
-                                <div className="folder-member">
+                                <div key={item._id} className="folder-member">
                                     <div className="p-2 folder-member-image">
                                         <img src="https://i.pravatar.cc/40" alt=""/>
                                     </div>
